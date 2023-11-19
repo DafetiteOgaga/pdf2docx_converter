@@ -92,12 +92,21 @@ def pdf2docx_converter(pdf_file_arg: str, docx_file_arg: str, option: int, pages
 
 
 
+
+
 # setup default location for source and converted files
 src_Path = os.path.join(os.path.expanduser("~"), "desktop", "PDF2WORD")
 
-os.makedirs(src_Path, exist_ok=True)
+# os.makedirs(src_Path, exist_ok=True)
+if not os.path.exists(src_Path):
+	os.makedirs(src_Path, exist_ok=True)
+	# copy(os.path.expanduser("~"), "pdf2docx_converter", "test.pdf") src_Path
+	test_src = os.path.join(os.path.expanduser("~"), "pdf2docx_converter", "test.pdf")
+	test_dst = src_Path
+	with open(test_src, 'rb') as source_file:
+		with open(test_dst, 'wb') as destination_file:
+			destination_file.write(source_file.read())
 os.chdir(src_Path)
-print(f"src_Path: {src_Path}")
 
 # user inputs
 
