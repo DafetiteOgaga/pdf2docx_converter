@@ -7,8 +7,6 @@ set "user_dir=C:\Users\%username%"
 
 cd %user_dir%
 
-move pdf2docx_converter pdf2docx_converter_dummy
-
 git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
 
 set "pdf2docx_converter=%user_dir%\pdf2docx_converter"
@@ -22,9 +20,18 @@ cd %pdf2docx_converter%
 xcopy %pdf2docx_converter%\.custom_command C:\Users\%username%\xbin_windows /e
 
 echo cleaning unneccessary files ...
-cd %wrong_dir%
-cd ..
-rmdir /s /q pdf2docx_converter_dummy
+cd %user_dir%
+
+rem set "user_dir=C:\Users\YourUserName"  REM Change YourUserName to the actual user name
+
+if exist "%user_dir%\pdf2docx_converter" (
+    echo Setup good ...
+) else (
+	echo Cleaning ...
+    cd %wrong_dir%
+	cd ..
+	rmdir /s /q pdf2docx_converter
+)
 
 echo "Installation complete."
 
