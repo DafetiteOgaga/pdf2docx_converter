@@ -11,7 +11,7 @@ git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
 set "pdf2docx_converter=%user_dir%\pdf2docx_converter"
 
 echo "Setting up neccessary files ..."
-cd %pdf2docx_converter%\.installation
+cd %pdf2docx_converter%
 call set_env_var.bat
 
 echo "Finishing setup ..."
