@@ -6,8 +6,11 @@ set "wrong_dir=%cd%"
 set "user_dir=C:\Users\%username%"
 
 cd %user_dir%
-
-git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
+if exist "%user_dir%\pdf2docx_converter" (
+    echo Setup good ...
+) else (
+	git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
+)
 
 set "pdf2docx_converter=%user_dir%\pdf2docx_converter"
 
