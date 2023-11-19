@@ -6,6 +6,9 @@ set "wrong_dir=%cd%"
 set "user_dir=C:\Users\%username%"
 
 cd %user_dir%
+
+move pdf2docx_converter pdf2docx_converter_dummy
+
 git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
 
 set "pdf2docx_converter=%user_dir%\pdf2docx_converter"
@@ -21,7 +24,7 @@ xcopy %pdf2docx_converter%\.custom_command C:\Users\%username%\xbin_windows /e
 echo cleaning unneccessary files ...
 cd %wrong_dir%
 cd ..
-rmdir /s /q pdf2docx_converter
+rmdir /s /q pdf2docx_converter_dummy
 
 echo "Installation complete."
 
