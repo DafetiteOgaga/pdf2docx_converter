@@ -39,5 +39,3 @@ if "%dir_ok%" equ "ok" (
 )
 
 echo Installation complete.
-
-rem pause
