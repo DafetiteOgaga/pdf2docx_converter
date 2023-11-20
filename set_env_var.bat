@@ -62,4 +62,4 @@ echo .
 echo We rise by lifting others.
 endlocal
 
-cd "C:\Users\%username%"
+cd "%repo_dir%"
