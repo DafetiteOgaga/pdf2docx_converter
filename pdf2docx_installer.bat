@@ -40,7 +40,8 @@ if "%dir_ok%" equ "ok" (
     cd %wrong_dir%\..
 	echo ...............................
 	echo wrong repo location: %cd%
-	echo wrong_dir\..: %wrong_dir%\%..%
+	cd /d %CD%\..
+	echo parent of wrong_dir\..: %cd%
 	echo ...............................
 	rmdir /s /q pdf2docx_converter
 	cd %user_dir%
