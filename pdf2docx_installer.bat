@@ -34,7 +34,7 @@ if "%user_dir%" equ "%wrong_dir%" (
     cd %wrong_dir%
 	cd ..
 	rmdir /s /q pdf2docx_converter
-	echo %cd%
+	cd %user_dir%
 )
 
 echo Installation complete.
