@@ -7,7 +7,7 @@ set "user_dir=C:\Users\%username%"
 
 cd %user_dir%
 if exist "%user_dir%\pdf2docx_converter" (
-    echo Setup good ...
+    echo Clone ok  ...
 ) else (
 	git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
 )
@@ -20,7 +20,7 @@ call set_env_var.bat
 
 echo "Finishing setup ..."
 cd %pdf2docx_converter%
-xcopy %pdf2docx_converter%\.custom_command C:\Users\%username%\xbin_windows /e
+xcopy %pdf2docx_converter%\.custom_command C:\Users\%username%\xbin_windows /e /y
 
 echo cleaning unneccessary files ...
 cd %user_dir%
