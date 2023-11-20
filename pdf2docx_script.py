@@ -5,7 +5,7 @@
 # pip install pdf2docx
 ###
 
-import os, sys, subprocess
+import os, sys, subprocess, shutil
 from pdf2docx import parse
 
 def open_docx(file_path):
@@ -102,10 +102,8 @@ if not os.path.exists(src_Path):
 	os.makedirs(src_Path, exist_ok=True)
 	# copy(os.path.expanduser("~"), "pdf2docx_converter", "test.pdf") src_Path
 	test_src = os.path.join(os.path.expanduser("~"), "pdf2docx_converter", "test.pdf")
-	test_dst = src_Path
-	with open(test_src, 'rb') as source_file:
-		with open(test_dst, 'wb') as destination_file:
-			destination_file.write(source_file.read())
+	test_dst = os.path.join(src_Path, "test.pdf")
+	shutil.copy(test_src, test_dst)
 os.chdir(src_Path)
 
 # user inputs
