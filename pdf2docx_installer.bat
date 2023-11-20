@@ -37,10 +37,11 @@ if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
 	echo Cleaning ...
-    cd %wrong_dir%\..
+    cd %wrong_dir%
+	cd ..
 	echo ...............................
 	echo wrong repo location: %cd%
-	echo Previous directory: %CD%\..
+	rem echo Previous directory: %CD%\..
 	rem cd /d "%CD%\.."
 	echo ...............................
 	rmdir /s /q pdf2docx_converter
