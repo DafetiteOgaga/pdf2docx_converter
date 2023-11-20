@@ -1,5 +1,15 @@
 @echo off
 
+echo .
+echo .
+echo ####	  ##	######	######	######	  ##	######	######
+echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
+echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
+echo ##  ##	######	##	##	  ##	  ##	  ##	##
+echo ####	##  ##	##	######	  ##	  ##	  ##	######
+echo .
+echo .
+
 echo ....................................................................
 echo Installing PDF to DOCX Converter ...
 echo ....................................
@@ -28,7 +38,7 @@ call set_env_var.bat
 echo Finishing setup ...
 echo ...................
 cd %pdf2docx_converter%
-xcopy %pdf2docx_converter%\.custom_command %user_dir%\xbin_windows /e /y
+xcopy %pdf2docx_converter%\.custom_command %user_dir%\xbin_windows /e /y /d
 
 echo ....................................................................
 echo Installing package and dependencies ...

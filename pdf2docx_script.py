@@ -110,7 +110,7 @@ if not os.path.exists(src_Path):
 	test_dst = os.path.join(src_Path, "test.pdf")
 	shutil.copy(test_src, test_dst)
 	print(f"""Hey! A test.pdf file has been created for you to test the functionality of this converter.
-To Convert any pdf file, simply type its name. You can respond to the prompt with "test" to see.
+To Convert any pdf file, simply type its name. You can respond to this prompt with "test" to see.
 Enjoy!
 """)
 os.chdir(src_Path)
@@ -204,7 +204,7 @@ if to_open.lower() == "y" or to_open == "":
 else:
 	print("Gracias!")
 print()
-print("""To carry out another pdf file conversion, simply run: "pdf2word" on your command prompt
-Note: there is a default folder "PDF2WORD" on your desktop. copy/move any pdf file into it and
+print("""To carry out another pdf file conversion, simply run: "pdf2word" on your command prompt.
+Note: There is a default folder "PDF2WORD" on your desktop. copy/move any pdf file into it and
 run this program for all your conversions.
 Cheers!""")
