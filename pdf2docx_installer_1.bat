@@ -4,8 +4,13 @@ rem set "dir=C:\Users\%username%\pdf2docx_converter"
 
 call set_env_var.bat
 
+echo ................................
+echo current dir: %cd%
 set "dir=C:\Users\%username%\pdf2docx_converter"
 cd %dir%
+echo later dir: %cd%
+echo ................................
+
 call pdf2docx_installer_2.bat
 
 set /P "resp=Do you want to run the program now? [y/N] >>> "
