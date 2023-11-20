@@ -42,7 +42,6 @@ if "%dir_ok%" equ "ok" (
 	echo wrong repo location: %cd%
 	echo wrong_dir: %wrong_dir%
 	echo ...............................
-	cd ..
 	rmdir /s /q pdf2docx_converter
 	cd %user_dir%
 )
