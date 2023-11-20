@@ -32,10 +32,9 @@ if "%user_dir%" equ "%wrong_dir%" (
 ) else (
 	echo Cleaning ...
     cd %wrong_dir%
-	echo %cd%
 	cd ..
-	echo %cd%
 	rmdir /s /q pdf2docx_converter
+	echo %cd%
 )
 
 echo Installation complete.
