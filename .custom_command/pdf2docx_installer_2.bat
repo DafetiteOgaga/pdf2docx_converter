@@ -1,6 +1,6 @@
 @echo off
 
-call .custom_command\name.bat
+call name.bat
 
 echo ....................................................................
 echo Installing PDF to DOCX Converter ...

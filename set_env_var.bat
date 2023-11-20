@@ -17,6 +17,8 @@ rem set /P "custom_command=Enter name of directory: "
 
 set "custom_command=xbin_windows"
 
+set "repo_dir=%cd%"
+echo repo_dir: %repo_dir%
 set "NEW_ENV_VAR=C:\Users\%username%\%custom_command%"
 
 echo ....................................................................
