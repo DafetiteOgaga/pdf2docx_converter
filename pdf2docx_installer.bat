@@ -6,6 +6,7 @@ set "wrong_dir=%cd%"
 set "user_dir=C:\Users\%username%"
 
 cd %user_dir%
+echo for clone okay: %cd%
 if exist "%user_dir%\pdf2docx_converter" (
     echo Clone ok  ...
 ) else (
@@ -26,7 +27,9 @@ echo cleaning unneccessary files ...
 cd %user_dir%
 
 rem set "user_dir=C:\Users\YourUserName"  REM Change YourUserName to the actual user name
-
+echo user_dir: %user_dir%
+echo wrong_dir: %wrong_dir%
+echo for cleaning: %cd%
 if "%user_dir%" equ "%wrong_dir%" (
     echo Setup good ...
 ) else (
