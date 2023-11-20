@@ -53,4 +53,4 @@ if "%dir_ok%" equ "ok" (
 	rmdir /s /q pdf2docx_converter
 )
 
-echo Installation complete.
+echo Installation completed.
