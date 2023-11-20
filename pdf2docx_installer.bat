@@ -8,8 +8,10 @@ set "user_dir=C:\Users\%username%"
 cd %user_dir%
 echo for clone okay: %cd%
 if exist "%user_dir%\pdf2docx_converter" (
-    echo Clone ok  ...
+	echo Clone ok  ...
+    set "dir_ok=ok"
 ) else (
+	set "dir_ok=not_ok"
 	git clone https://github.com/DafetiteOgaga/pdf2docx_converter.git
 )
 
@@ -30,7 +32,7 @@ rem set "user_dir=C:\Users\YourUserName"  REM Change YourUserName to the actual 
 echo user_dir: %user_dir%
 echo wrong_dir: %wrong_dir%
 echo for cleaning: %cd%
-if "%user_dir%" equ "%wrong_dir%" (
+if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
 	echo Cleaning ...
