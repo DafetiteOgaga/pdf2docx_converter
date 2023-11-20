@@ -6,7 +6,11 @@
 ###
 
 import os, sys, subprocess, shutil
-from pdf2docx import parse
+try:
+	from pdf2docx import parse
+except ModuleNotFoundError:
+	print("Run(on command prompt): pip install pdf2docx")
+	sys.exit()
 
 def open_docx(file_path):
     """This function opens the converted docx file with the default
