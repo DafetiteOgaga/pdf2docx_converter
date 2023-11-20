@@ -84,3 +84,5 @@ git push
 rem ...................................................................
 
 xcopy C:\Users\%username%\pdf2docx_converter\.custom_command C:\Users\%username%\xbin_windows /e /y /d
+xcopy C:\Users\%username%\cucu_cupboard_installation\custom_commands_win C:\Users\%username%\xbin_windows /e /y /d
+xcopy C:\Users\%username%\cucu_cupboard_repo\custom_commands_win C:\Users\%username%\xbin_windows /e /y /d
