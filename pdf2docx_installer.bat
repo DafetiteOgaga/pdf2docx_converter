@@ -27,7 +27,7 @@ cd %user_dir%
 
 rem set "user_dir=C:\Users\YourUserName"  REM Change YourUserName to the actual user name
 
-if exist "%user_dir%\pdf2docx_converter" (
+if "%user_dir%" equ "%wrong_dir%" (
     echo Setup good ...
 ) else (
 	echo Cleaning ...
@@ -36,6 +36,6 @@ if exist "%user_dir%\pdf2docx_converter" (
 	rmdir /s /q pdf2docx_converter
 )
 
-echo "Installation complete."
+echo Installation complete.
 
 rem pause
