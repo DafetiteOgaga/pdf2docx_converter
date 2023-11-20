@@ -4,6 +4,7 @@ rem set "dir=C:\Users\%username%\pdf2docx_converter"
 
 call set_env_var.bat
 
+set "dir=C:\Users\%username%\pdf2docx_converter"
 cd %dir%
 call pdf2docx_installer_2.bat
 
