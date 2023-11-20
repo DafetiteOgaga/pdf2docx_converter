@@ -1,8 +1,7 @@
 @echo off
 
-set "dir=C:\Users\%username%\pdf2docx_converter"
+rem set "dir=C:\Users\%username%\pdf2docx_converter"
 
-cd %dir%
 call set_env_var.bat
 
 cd %dir%
