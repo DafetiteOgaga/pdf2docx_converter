@@ -7,7 +7,7 @@ call set_env_var.bat
 echo ................................
 echo current dir: %cd%
 set "dir=C:\Users\%username%\pdf2docx_converter"
-cd %dir%
+rem cd %dir%
 echo later dir: %cd%
 echo ................................
 
