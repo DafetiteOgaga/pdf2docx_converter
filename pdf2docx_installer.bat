@@ -60,6 +60,7 @@ if "%dir_ok%" equ "ok" (
 	echo ...............................
 	echo ...............................
 
+	cd %wrong_dir%
 	rmdir /s /q "%wrong_dir%\pdf2docx_converter"
 	@REM rmdir /s /q %wrong_dir%\pdf2docx_converter
 )
