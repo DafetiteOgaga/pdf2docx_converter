@@ -50,7 +50,7 @@ cd %user_dir%
 if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
-	call remove_dir.bat
+	call .\remove_dir.bat
 	@REM rmdir /s /q %wrong_dir%\pdf2docx_converter
 )
 
