@@ -50,7 +50,7 @@ if "%dir_ok%" equ "ok" (
 	echo Cleaning ...
     cd %wrong_dir%
 
-	rmdir /s /q %wrong_dir%\pdf2docx_converter
+	rmdir /s /q pdf2docx_converter
 )
 
 echo Installation complete.
