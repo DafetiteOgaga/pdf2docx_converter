@@ -6,8 +6,6 @@ echo .................................................
 REM Get the commit message from the user
 SET /P "RESP=Enter a commit message [[q] to abort] >>> "
 
-echo RESP: %RESP%
-
 rem ...................................................................
 REM Check if the commit message is empty or if the user wants to abort
 IF "%RESP%"=="" (
