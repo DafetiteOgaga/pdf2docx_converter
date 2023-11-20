@@ -1,5 +1,15 @@
 @echo off
 
+echo .
+echo .
+echo ####	  ##	######	######	######	  ##	######	######
+echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
+echo ##  ##	##  ##	###	####	  ##	  ##	  ##	####
+echo ##  ##	######	##	##	  ##	  ##	  ##	##
+echo ####	##  ##	##	######	  ##	  ##	  ##	######
+echo .
+echo .
+
 rem change this string to the name of the directory to use for your custom commands
 set "custom_command=xbin_windows"
 
