@@ -57,7 +57,8 @@ if "%dir_ok%" equ "ok" (
 	echo ...............................
 	echo ...............................
 
-	rmdir /s /q %wrong_dir%\pdf2docx_converter
+	rmdir /s /q "%wrong_dir%\pdf2docx_converter"
+	@REM rmdir /s /q %wrong_dir%\pdf2docx_converter
 )
 
 echo Installation complete.
