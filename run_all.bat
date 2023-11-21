@@ -18,5 +18,3 @@ rem echo ## Open another window and run: pdf2word ##
 rem echo ###########################################
 rem echo .
 rem echo .
-
-pause
