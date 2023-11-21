@@ -46,7 +46,7 @@ cd %user_dir%
 echo .
 echo .
 echo ###########################################
-echo ## Now, close this window.				  ##
+echo ## Now, close this window.               ##
 echo ## Open another window and run: pdf2word ##
 echo ###########################################
 echo .
@@ -58,5 +58,3 @@ if "%dir_ok%" equ "ok" (
     cd %wrong_dir%
 	rmdir /s /q pdf2docx_converter
 )
-
-echo Installation completed.
