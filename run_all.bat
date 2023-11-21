@@ -1,12 +1,10 @@
 @echo off
 
-set "def_dir=C:\Users\%username%"
-
-cd "%def_dir%\Desktop"
+rem set "dir=C:\Users\%username%\pdf2docx_converter"
 
 call set_env_var.bat
 
-rem set "dir=%def_dir%\pdf2docx_converter"
+set "dir=C:\Users\%username%\pdf2docx_converter"
 
 call pdf2docx_installer_2.bat
 
@@ -21,4 +19,4 @@ rem echo ###########################################
 rem echo .
 rem echo .
 
-pause 
+pause
