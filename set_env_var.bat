@@ -18,7 +18,6 @@ rem set /P "custom_command=Enter name of directory: "
 set "custom_command=xbin_windows"
 
 set "repo_dir=%cd%"
-echo repo_dir: %repo_dir%
 set "NEW_ENV_VAR=C:\Users\%username%\%custom_command%"
 
 echo ....................................................................
@@ -56,7 +55,6 @@ for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_S
 )
 rem echo UPDATED_ENV_VAR: %UPDATED_ENV_VAR_PATH%
 rem echo ....................................................................
-cd "%repo_dir%"
 call %repo_dir%\custom_command\copy_path_pdf2docx.bat
 echo .
 echo .
