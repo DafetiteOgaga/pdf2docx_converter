@@ -29,9 +29,7 @@ if exist "%NEW_ENV_VAR%" (
 )
 echo ....................................................................
 cd %NEW_ENV_VAR%
-echo ....................................................................
-rem echo NEW_ENV_VAR: %NEW_ENV_VAR%
-echo ....................................................................
+
 for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_SZ"') do (
     set "CURRENT_ENV_VAR=%%J"
 )
@@ -47,7 +45,6 @@ if errorlevel 1 (
 )
 
 echo ....................................................................
-rem echo new variables ...
 rem echo ....................................................................
 rem Retrieve the updated PATH variable
 for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_SZ"') do (
@@ -61,5 +58,3 @@ echo .
 echo .
 echo We rise by lifting others.
 endlocal
-
-rem cd "%repo_dir%"
