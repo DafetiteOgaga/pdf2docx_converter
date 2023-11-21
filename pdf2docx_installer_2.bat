@@ -45,9 +45,12 @@ if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
 	echo Cleaning ...
-	echo wrong_dir: %wrong_dir%
+	cd %wrong_dir%
+	echo wrong_dir: "%wrong_dir%"
 	cd ..
-	echo wrong_dir_back: %wrong_dir%
+	echo wrong_dir_back(cd ..): "%wrong_dir%"
+	cd..
+	echo wrong_dir_back(cd..): "%wrong_dir%"
     cd %wrong_dir%
 	echo current dir: %cd%
 
