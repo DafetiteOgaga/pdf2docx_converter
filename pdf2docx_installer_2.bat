@@ -46,9 +46,10 @@ if "%dir_ok%" equ "ok" (
 ) else (
 	echo Cleaning ...
 	echo wrong_dir: %wrong_dir%
-	cd..
+	cd ..
 	echo wrong_dir_back: %wrong_dir%
     cd %wrong_dir%
+	echo current dir: %cd%
 
 	rmdir /s /q pdf2docx_converter
 )
