@@ -43,7 +43,14 @@ echo ....................................................................
 echo cleaning unneccessary files ...
 echo ...............................
 cd %user_dir%
-
+echo .
+echo .
+echo ###########################################
+echo ## Now, close this window.				  ##
+echo ## Open another window and run: pdf2word ##
+echo ###########################################
+echo .
+echo .
 if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
