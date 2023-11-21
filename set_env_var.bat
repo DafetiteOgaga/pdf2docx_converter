@@ -53,7 +53,7 @@ for /f "tokens=2,*" %%I in ('reg query "HKCU\Environment" /v PATH ^| find "REG_S
 rem echo UPDATED_ENV_VAR: %UPDATED_ENV_VAR_PATH%
 rem echo ....................................................................
 cd "%repo_dir%"
-call %repo_dir%\custom_command\copy_path_pdf2docx.bat
+call %repo_dir%\custom_command\pdf_copy_path_pdf2docx.bat
 echo .
 echo .
 echo We rise by lifting others.
