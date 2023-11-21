@@ -55,6 +55,7 @@ if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
 	echo Cleaning ...
-    cd %wrong_dir%
+    rem cd %wrong_dir%
+	cd "C:\Users\%username%\Desktop"
 	rmdir /s /q pdf2docx_converter
 )
