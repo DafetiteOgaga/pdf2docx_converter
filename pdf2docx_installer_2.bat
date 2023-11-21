@@ -51,6 +51,9 @@ echo ## Open another window and run: pdf2word ##
 echo ###########################################
 echo .
 echo .
+
+pause
+
 if "%dir_ok%" equ "ok" (
     echo Setup good ...
 ) else (
