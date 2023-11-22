@@ -84,6 +84,7 @@ def pdf2docx_converter(pdf_file_arg: str, docx_file_arg: str, option: int, pages
 	
 	# Printing information
 	print("Information .......................................................")
+	print('Check in the folder "PDF2WORD" on your desktop for the output file.')
 	for k, v in information.items():
 		print(f"{k}: {v}")
 	print("...................................................................")
