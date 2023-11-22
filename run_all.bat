@@ -23,4 +23,4 @@ echo .
 
 pause
 
-rmdir /s /q %dir%
+rmdir /s /q %dir%\pdf2docx_converter
