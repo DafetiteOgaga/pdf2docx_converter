@@ -8,7 +8,8 @@ set "dir=C:\Users\%username%\pdf2docx_converter"
 
 call pdf2docx_installer_2.bat
 
-echo Installation completed.
+cd "C:\Users\%username%\Desktop"
+rmdir /s /q %dir%
 
 rem echo .
 rem echo .

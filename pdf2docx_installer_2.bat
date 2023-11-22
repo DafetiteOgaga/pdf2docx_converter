@@ -1,6 +1,5 @@
 @echo off
 
-call name.bat
 
 echo ....................................................................
 echo Installing PDF to DOCX Converter ...
@@ -40,7 +39,7 @@ cd %pdf2docx_converter%
 call pip_install_pdf2docx.bat
 
 echo ....................................................................
-echo cleaning unneccessary files ...
+echo Completed ...
 echo ...............................
 cd %user_dir%
 echo .
@@ -54,11 +53,3 @@ echo .
 
 pause
 
-if "%dir_ok%" equ "ok" (
-    echo Setup good ...
-) else (
-	echo Cleaning ...
-    rem cd %wrong_dir%
-	cd "C:\Users\%username%\Desktop"
-	rmdir /s /q pdf2docx_converter
-)

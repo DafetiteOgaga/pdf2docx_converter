@@ -2,15 +2,6 @@
 
 echo .
 echo .
-echo #####	 ####	######	######	######	  ##	######	######
-echo ##  ##	##  ##	##	##	  ##	  ##	  ##	##
-echo ##  ##	##  ##	####	####	  ##	  ##	  ##	####
-echo ##  ##	######	##	##	  ##	  ##	  ##	##
-echo #####	##  ##	##	######	  ##	  ##	  ##	######
-echo .
-echo . 💪 We rise by lifting others.
-echo .
-echo .
 
 rem takes the name of the env variable
 rem set /P "custom_command=Enter name of directory: "
@@ -56,5 +47,5 @@ cd "%repo_dir%"
 call %repo_dir%\custom_command\pdf_copy_path_pdf2docx.bat
 echo .
 echo .
-echo We rise by lifting others.
+
 endlocal
