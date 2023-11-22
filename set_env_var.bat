@@ -1,7 +1,6 @@
 @echo off
 
 echo .
-echo .
 
 rem takes the name of the env variable
 rem set /P "custom_command=Enter name of directory: "

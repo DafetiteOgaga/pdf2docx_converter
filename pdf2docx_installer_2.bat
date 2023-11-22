@@ -42,14 +42,3 @@ echo ....................................................................
 echo Completed ...
 echo ...............................
 cd %user_dir%
-echo .
-echo .
-echo ###########################################
-echo ## Now, close this window.               ##
-echo ## Open another window and run: pdf2word ##
-echo ###########################################
-echo .
-echo .
-
-pause
-
