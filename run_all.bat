@@ -11,7 +11,7 @@ set "dir=C:\Users\%username%\Desktop"
 call pdf2docx_installer_2.bat
 
 
-call %dir%\pdf2docx_converter\custom_commands_win\name.bat
+call "%dir%\pdf2docx_converter\custom_command\name.bat"
 
 echo .
 echo ###########################################
