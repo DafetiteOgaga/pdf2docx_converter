@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 
-####
-# python
-# pip install pdf2docx
-###
-
 import os, sys, subprocess, shutil
 try:
 	from pdf2docx import parse
@@ -42,7 +37,7 @@ def new_filename(my_str: str, src_path: str):
 			num += 1
 			continue
 		print(f"""..........................................................................
-Would you like to rename the output to "{suggested_name}"? - [y]. (press any key to change name)
+Would you like to rename the output to "{suggested_name}"? ✅ -- [y]. (press any key to change name)
 		or 
 you prefer to enter a new name - [i]?
 		""")
