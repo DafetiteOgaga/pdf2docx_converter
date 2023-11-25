@@ -1,7 +1,3 @@
-
-
-https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc4a-495d-a881-276a0c19b189
-
 # Pdf2Docx Converter
 
 ### This program converts pdf files to docx files.
@@ -15,7 +11,7 @@ https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc
 
 # Installation process
 
-https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1b7c1d-4609-4611-bc4e-66321d7e1227
+https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc4a-495d-a881-276a0c19b189
 
 0. ### **Change directory to Desktop**
    Open command prompt, you should see a prompt `C:\Users\<username>\>`. Change directory to desktop, run: 
