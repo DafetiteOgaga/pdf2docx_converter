@@ -26,7 +26,7 @@ https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc
    ```
 
 2. ### **cd into the repository**
-   You will see a `pdf2docx_converter` folder on your desktop, open the folder and run the file `run_all.bat` to install the program.
+   You will see a `pdf2docx_converter` folder on your desktop, open the folder and run the file `run_all.bat` to install the program and wait till it is done.
    
 3. ### **To start converting, Run:**
    ```command prompt
