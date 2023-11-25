@@ -1,6 +1,6 @@
 # Pdf2Docx Converter
 
-### This program converts pdf foles to docx.
+### This program converts pdf files to docx files.
 
 # Requirements
 - Windows 10 or Linux
@@ -28,8 +28,7 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1
 2. ### **cd into the repository**
    You will see a `pdf2docx_converter` folder on your desktop, open the folder and run the file `run_all.bat` to install the program.
    
-3. ### **Startup the local server**
-   To start converting, Run:
+3. ### **To start converting, Run:**
    ```command prompt
    pdf2word
    ```
@@ -40,8 +39,8 @@ https://github.com/DafetiteOgaga/cucu_cupboard_installation/assets/133142029/7b1
 
 ### Usage
 
-`pdf2word` initiates the program. However, you will notice a `PDF2WORD` folder on your desktop. This is the home of your input files(pdf files) and output files(docx files).
-So, copy your pdf file into the folder and copy your docx file from it, after completing the conversion.
+`pdf2word` startup the program. However, you will notice a `PDF2WORD` folder on your desktop. This is the home of your input files(pdf files) and output files(docx files).
+So, copy thee pdf file that you want to convert into the folder and when you are done converting, copy your docx file from it.
 
 <br>
 
