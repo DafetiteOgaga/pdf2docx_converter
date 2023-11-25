@@ -13,7 +13,7 @@
 
 https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc4a-495d-a881-276a0c19b189
 
-**Note: if you fail to meet the Requirements above, you will not be able to install this program. Kindly click on each requirement to fix it**
+**Note: if you fail to meet the Requirements above, you will not be able to install this program. Kindly click on each requirement to fix it.**
 
 
 0. ### **Change directory to Desktop**
