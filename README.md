@@ -15,6 +15,7 @@ https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc
 
 **Note: if you fail to meet the Requirements above, you will not be able to install this program. Kindly click on each requirement to fix it**
 
+
 0. ### **Change directory to Desktop**
    Open command prompt, you should see a prompt `C:\Users\<username>\>`. Change directory to desktop, run: 
    ```command prompt
