@@ -53,16 +53,18 @@ This file contains the notable changes made to the Pdf2Docx Converter project.
 <br>
 
 ## New
-	- Added sample file for testing
+   - Added sample file for testing
 	- Added support of pdf2word as internal command
 
 ## Changes
-	- internal commands are now added to the same directory of any previously installed program of mine
+   - internal commands are now added to the same directory of any previously installed program of mine
 	- Minor changes to enhance performance
 
 
 ## Fixes
-	- fixed issues of wrong input by user
+   - fixed bug of not being able to enter tens
+   - fixed error generated when users fail to enter range
+   - fixed issues of wrong input by user
 
 
 

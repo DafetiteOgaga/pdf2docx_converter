@@ -166,7 +166,7 @@ How do you want to convert {file_name_pdf}?
 			option = 1
 		elif choice == "2" or choice.lower() == "b":
 			while True:
-				page_num = list(input("Enter page number(s) separated by space: "))
+				page_num = input("Enter page number(s) separated by space: ").split(" ")
 				if numbers_and_whitespace(page_num):
 					break
 				print("Invalid entry.\n")
@@ -174,8 +174,8 @@ How do you want to convert {file_name_pdf}?
 			option = 2
 		elif choice == "3" or choice.lower() == "c":
 			while True:
-				page_num = list(input("Enter Start and End page numbers, separated by space: "))
-				if numbers_and_whitespace(page_num):
+				page_num = input("Enter Start and End page numbers, separated by space: ").split(" ")
+				if numbers_and_whitespace(page_num) and len(page_num) == 2:
 					break
 				print("Invalid entry.\n")
 			clean = [(int(i) - 1) for i in page_num if i.isnumeric()]
