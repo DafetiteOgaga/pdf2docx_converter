@@ -43,7 +43,7 @@ https://github.com/DafetiteOgaga/pdf2docx_converter/assets/133142029/e793c9a3-bc
 ### Usage
 
 `pdf2word` startup the program. However, you will notice a `PDF2WORD` folder on your desktop. This is the home of your input files(pdf files) and output files(docx files).
-So, copy thee pdf file that you want to convert into the folder and when you are done converting, copy your docx file from it.
+So, copy the pdf file that you want to convert into the folder and when you are done converting, copy your docx file from it.
 
 <br>
 
